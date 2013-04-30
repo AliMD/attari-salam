@@ -2745,11 +2745,18 @@ img,iframe,.features-list li:last-child,.play-list li:last-child {
   float: right;
   margin-left: 10px !important;
 }
-.aux strong {
+.menu-txt strong {
   font-size: 20px;
   text-align: right;
 }
-.aux span {
+.menu-txt span {
   font-size: 17px;
   text-align: right;
+}
+.menu-txt {
+  margin-top: 22px;
+  line-height: 24px;
+}
+.util {
+  margin-top: 12px;
 }
