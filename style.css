@@ -1,3 +1,14 @@
+.cover {
+  *zoom: 1;
+}
+.cover:before,
+.cover:after {
+  content: " ";
+  display: table;
+}
+.cover:after {
+  clear: both;
+}
 body {
   direction:rtl;
   background:#FFF;
@@ -377,14 +388,13 @@ ul li {
 
 .dev-nav li {
   float:right;
-  width:25%;
+  width:20%;
 }
 
 .dev-nav a {
   display:block;
   min-width:120px;
   padding:4px 0 20px;
-  text-align:center;
   width:100%;
 }
 
@@ -396,13 +406,13 @@ ul li {
 
 .dev-nav .nexus-4 .thumb {
   height:74px;
-  margin-top:21px;
+  margin-top:10px;
   width:43px;
 }
 
 .dev-nav .nexus-7 .thumb {
   height:83px;
-  margin-top:12px;
+  margin-top:10px;
   width:57px;
 }
 
@@ -437,7 +447,7 @@ ul li {
 }
 
 .dev-nav-drawer.cinco-ui-active .dev-nav {
-  height:141px;
+  height:115px;
   margin-bottom:-1px;
 }
 
@@ -2730,4 +2740,16 @@ img,iframe,.features-list li:last-child,.play-list li:last-child {
 .howToBuy {
   float: left;
   font-size: 22px;
+}
+.thumb {
+  float: right;
+  margin-left: 10px !important;
+}
+.aux strong {
+  font-size: 20px;
+  text-align: right;
+}
+.aux span {
+  font-size: 17px;
+  text-align: right;
 }
