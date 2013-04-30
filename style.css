@@ -2775,3 +2775,9 @@ img,iframe,.features-list li:last-child,.play-list li:last-child {
 .center {
   text-align: center !important;
 }
+.last {
+  padding: 0 !important;
+}
+.disclaimer {
+  font-family: serif;
+}
