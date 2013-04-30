@@ -497,13 +497,13 @@ ul li {
   padding:3px 0;
 }
 
-.dev-feat-nav a:before {
+/*.dev-feat-nav a:before {
   content:"↓";
   font-size:.7em;
   right:-4px;
   position:relative;
   top:-2px;
-}
+}*/
 
 [dir="rtl"] .dev-feat-nav a:before {
   right:0;
@@ -527,10 +527,13 @@ ul li {
 
 .hero .price {
   display:inline-block;
-  font-size:2.3em;
+  font-size:30px;
   right:10px;
   position:relative;
   top:7px;
+}
+.hero .price span {
+  font-size: 25px;
 }
 
 .google-carousel-controls {
@@ -2715,4 +2718,24 @@ img,iframe,.features-list li:last-child,.play-list li:last-child {
     display:block;
     position:static;
   }
+}
+
+.title {
+  text-align: center;
+  color:#555;
+  font-size: 3.5em;
+  margin-bottom: 0;
+}
+.sub-title {
+  text-align: center;
+  font-size: 2.5em;
+  margin-top: 0;
+  margin-bottom: 90px;
+}
+
+.content p{
+  font-size: 19px;
+}
+.content strong {
+  font-size: 21px;
 }
