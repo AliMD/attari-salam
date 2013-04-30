@@ -255,7 +255,7 @@ ul li {
   box-shadow:1px 1px 3px rgba(0,0,0,.1);
   display:inline-block;
   font-weight:400;
-  padding:7px 10px;
+  padding:7px 15px;
   -moz-transition:border-color .2s;
   -o-transition:border-color .2s;
   -webkit-transition:border-color .2s;
@@ -282,6 +282,7 @@ ul li {
   border-color:#19b6d3;
   color:#fff;
   text-shadow:1px 1px 0 rgba(0,0,0,.15);
+  font-size: 18px;
 }
 
 .cta-play>a:hover {
@@ -523,7 +524,8 @@ ul li {
   top:7px;
 }
 .hero .price span {
-  font-size: 25px;
+  font-size: 28px;
+  color: #009CDC;
 }
 
 .google-carousel-controls {
@@ -2759,4 +2761,15 @@ img,iframe,.features-list li:last-child,.play-list li:last-child {
 }
 .util {
   margin-top: 12px;
+}
+.price {
+
+}
+.cta-play {
+  float: left;
+  margin-top: 8px;
+}
+.rial {
+  display: block;
+  float: left;
 }
