@@ -6,6 +6,7 @@ body {
   font-weight:300;
   margin:0;
   overflow-x:hidden;
+  font-family: Nazanin;
 }
 
 body.no-roboto {
@@ -63,11 +64,11 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 h1 {
-  font-size:2.5em;
+  font-size:3.5em;
 }
 
 h2 {
-  font-size:3.5em;
+  font-size:2.5em;
   margin-top:25px;
 }
 
@@ -358,27 +359,6 @@ ul li {
   -o-transition:top .3s ease-out;
   -webkit-transition:top .3s ease-out;
   transition:top .3s ease-out;
-}
-
-.dev-nav-toggle {
-  border-left-width:1px;
-  float:right;
-  padding-left:10px;
-}
-
-.dev-nav-toggle .icon-drop-down {
-  background-position:0 -26px;
-}
-
-.dev-nav-toggle.cinco-ui-active .icon-drop-down {
-  background-position:0 -20px;
-}
-
-[dir="rtl"] .dev-nav-toggle {
-  border-width:0 1px 0 0;
-  float:left;
-  padding-right:25px;
-  padding-left:0;
 }
 
 .dev-nav {
@@ -2644,7 +2624,7 @@ img,iframe,.features-list li:last-child,.play-list li:last-child {
     display:block;
   }
 
-  .google-carousel-controls,.apps-carousel-controls,.cinco-ui-carousel-controls,.play-list li p,.header .util>div.country-selector,.dev-nav-toggle,.dev-feat,.expand-features-toggle.cinco-ui-active,.expand-features-toggle.cinco-ui-active a,#gallery-controls,#gallery-previous,#gallery-next,.nexus-4 .communication .callout,.nexus-4 #pano-container,.nexus-4 .panorama .pano-start,.nexus-4 .play.dev-feat-bkt .image img,#device-compare,#toggle-device-compare,#pinpoint-map {
+  .google-carousel-controls,.apps-carousel-controls,.cinco-ui-carousel-controls,.play-list li p,.header .util>div.country-selector,.dev-feat,.expand-features-toggle.cinco-ui-active,.expand-features-toggle.cinco-ui-active a,#gallery-controls,#gallery-previous,#gallery-next,.nexus-4 .communication .callout,.nexus-4 #pano-container,.nexus-4 .panorama .pano-start,.nexus-4 .play.dev-feat-bkt .image img,#device-compare,#toggle-device-compare,#pinpoint-map {
     display:none;
   }
 
@@ -2735,7 +2715,19 @@ img,iframe,.features-list li:last-child,.play-list li:last-child {
 
 .content p{
   font-size: 19px;
+  text-align: justify;
 }
 .content strong {
   font-size: 21px;
+}
+.subnav a {
+  font-size: 18px;
+}
+.choose {
+  float: right;
+  font-size: 22px;
+}
+.howToBuy {
+  float: left;
+  font-size: 22px;
 }
