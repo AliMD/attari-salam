@@ -174,7 +174,7 @@ ul li {
 .nav-container {
   background:#fff;
   border-width:1px 0;
-  padding:14px 0 13px;
+  padding:5px 0 6px;
 }
 
 .content {
@@ -2728,9 +2728,9 @@ a.logo{
 }
 .sub-title {
   text-align: center;
-  font-size: 2.5em;
+  font-size: 2em;
   margin-top: 0;
-  margin-bottom: 90px;
+  margin-bottom: 55px;
 }
 
 .content p{
@@ -2751,7 +2751,9 @@ a.logo{
 .howToBuy {
   float: left;
   font-size: 22px;
-  color: hsl(197, 100%, 43%);
+}
+.howToBuy i{
+  margin-left: 7px;
 }
 .thumb {
   float: right;
