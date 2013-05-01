@@ -405,6 +405,10 @@ ul li {
   min-width:120px;
   padding:4px 0 20px;
   width:100%;
+  -moz-transition:all 100ms;
+  -o-transition:all 100ms;
+  -webkit-transition:all 100ms;
+  transition:all 100ms;
 }
 
 .dev-nav .thumb {
