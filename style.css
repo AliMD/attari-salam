@@ -2132,8 +2132,8 @@ img,iframe,.features-list li:last-child,.play-list li:last-child {
 }
 
 a.logo{
-    display: block !important;
-    height: 70px !important;
+    display: block;
+    height: 70px;
 }
 
 @media screen and (max-width:1030px){
@@ -2746,10 +2746,12 @@ a.logo{
 .choose {
   float: right;
   font-size: 22px;
+  color: hsl(197, 100%, 43%);
 }
 .howToBuy {
   float: left;
   font-size: 22px;
+  color: hsl(197, 100%, 43%);
 }
 .thumb {
   float: right;

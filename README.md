@@ -8,7 +8,7 @@ This is the source for the main AttarySalam website, found at [alimd.github.io/a
 * [Mohammad Sedaghat `sedaghat`](https://github.com/sedaghat) Project Manager
 * [Ali Mihandoost `AliMD`](https://github.com/AliMD) Technical Manager / Developer
 * [Ali aGHasizadeh `AliGH`](https://github.com/AliGH) Developer / Programmer
-* [Mohammad Reza Shariatzadeh `Mrshcom`](https://github.com/AliGH) Developer / Programmer
+* [Mohammad Reza Shariatzadeh `Mrshcom`](https://github.com/Mrshcom) Developer / Programmer
 
 ## THANKS (Contributors)
 * [Add YourName `userName`](https://github.com/username) 
