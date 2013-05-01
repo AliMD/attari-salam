@@ -112,6 +112,14 @@ ul li {
   margin:0;
 }
 
+.right{
+  float: right;
+}
+
+.left{
+  float: left;
+}
+
 .drop-down .icon-drop-down {
   background-image:url(images/icons-nav-arrows.png);
   background-position:-10px -26px;
@@ -509,12 +517,11 @@ ul li {
 }
 
 .hero .content {
-  float:left;
   width:50%;
 }
 
 .hero .image {
-  float:right;
+  margin-top: 30px;
   width:50%;
 }
 
@@ -2793,4 +2800,14 @@ a.logo{
 }
 .disclaimer {
   font-family: serif;
+}
+.content ol{
+  font-size: 19px;
+}
+.content ol span{
+  font-size: 22px;
+  font-weight: bold;
+}
+.hero .des .image img{
+  margin-right: 25px;
 }
