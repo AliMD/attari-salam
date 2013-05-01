@@ -487,7 +487,7 @@ ul li {
 }
 
 .dev-feat-nav {
-  padding:12px 0 20px;
+  padding:2px 5px 2px 0;
 }
 
 [dir="rtl"] .dev-feat-nav ul {
@@ -512,7 +512,7 @@ ul li {
 }
 
 .hero {
-  background:#fbfbfb;
+  background:#f7f7f7;
   padding:55px 0 40px;
 }
 
@@ -2803,11 +2803,12 @@ a.logo{
 }
 .content ol{
   font-size: 19px;
+  margin-bottom: 10px;
 }
 .content ol span{
   font-size: 22px;
   font-weight: bold;
 }
 .hero .des .image img{
-  margin-right: 25px;
+  margin-right: 35px;
 }
