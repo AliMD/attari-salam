@@ -2056,7 +2056,7 @@ img,iframe,.features-list li:last-child,.play-list li:last-child {
 }
 
 .dev-feat-nav ul,.icon-aside>* {
-  margin-right:100px;
+  margin-right:70px;
 }
 
 .google-carousel-controls li .icon,.play-list .icon,.icon-list .icon {
@@ -2737,7 +2737,7 @@ a.logo{
   text-align: center;
   font-size: 2em;
   margin-top: 0;
-  margin-bottom: 55px;
+  margin-bottom: 50px;
 }
 
 .content p{
@@ -2811,4 +2811,13 @@ a.logo{
 }
 .hero .des .image img{
   margin-right: 35px;
+}
+
+.content.warning p{
+  font-size: 22px;
+}
+
+.content.warning h4{
+  color: #fb4449;
+  font-size: 2.5em;
 }
