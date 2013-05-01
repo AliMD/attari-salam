@@ -1,8 +1,8 @@
 # Attari-Salam website
-This is the source for the main AttarySalam website, found at [alimd.github.io/attari-salam](http://alimd.github.io/attari-salam).  
+This is the source for the main AttarySalam website, found at [alimd.github.io/attari-salam](http://alimd.github.io/attari-salam/). 
 
 ## Demo
-[alimd.github.io/attari-salam](http://alimd.github.io/attari-salam)
+[alimd.github.io/attari-salam](http://alimd.github.io/attari-salam/)
 
 ## TEAM (1Devs Web Department)
 * [Mohammad Sedaghat `sedaghat`](https://github.com/sedaghat) Project Manager
@@ -12,7 +12,7 @@ This is the source for the main AttarySalam website, found at [alimd.github.io/a
 
 ## THANKS (Contributors)
 * [Add YourName `userName`](https://github.com/username) 
-Please review the [guidelines for contributing](https://github.com/AliMD/attari-salam/CONTRIBUTING.md) to this repository.
+Please review the [guidelines for contributing](https://github.com/AliMD/attari-salam/blob/master/CONTRIBUTING.md) to this repository.
 
 ## TECHNOLOGY
 * [HTML5](http://ali.md/wiki/html5)
@@ -30,15 +30,15 @@ Please review the [guidelines for contributing](https://github.com/AliMD/attari-
 #### HEAD (now)
 
   * Project initialized.
-  * [View full changes](https://github.com/AliMD/attari-salam/compare/bfd65880da8f18908dadfb54bf014db9221b3468...master)
+  * [View full changes](https://github.com/AliMD/attari-salam/compare/bfd65880da8f18908dadfb54bf014db9221b3468...gh-pages)
 
 ## A 1Devs Project  
-Supported by The*One*Developers.
+Supported by <b>The<i>One</i>Developers.</b>.
 
 ## License
 (The MIT License)
 
-Copyright (c) 2013 Ali Mihandoost <i@ali.md>
+Copyright (c) 2013 Ali Mihandoost &lt;i@ali.md&gt;
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the 'Software'), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
