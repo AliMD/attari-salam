@@ -31,7 +31,7 @@ div,a,li {
 }
 
 a {
-  color:#009cdc;
+  color:#0092CC;
   cursor:pointer;
   text-decoration:none;
   -moz-transition:color .2s;
@@ -291,7 +291,6 @@ ul li {
   color:#fff;
   text-shadow:1px 1px 0 rgba(0,0,0,.15);
   font-size: 18px;
-  float: left;
 }
 
 .price>a:hover {
@@ -537,11 +536,18 @@ ul li {
   right:10px;
   position:relative;
   top:7px;*/
+  text-align: left;
   padding-top: 8px;
 }
 .hero .price span {
-  font-size: 28px;
+  font-size: 26px;
   color: #009CDC;
+  display: inline-block;
+  vertical-align: bottom;
+}
+.hero .price a {
+  margin-right: 10px;
+  vertical-align: bottom;
 }
 
 .google-carousel-controls {
@@ -2066,9 +2072,9 @@ img,iframe,.features-list li:last-child,.play-list li:last-child {
   color:#333;
 }
 
-.dev-feat-nav ul,.icon-aside>* {
-  margin-right:70px;
-}
+/*.dev-feat-nav ul,.icon-aside>* {
+  
+}*/
 
 .google-carousel-controls li .icon,.play-list .icon,.icon-list .icon {
   margin:auto;
@@ -2764,7 +2770,7 @@ a.logo{
 .choose {
   float: right;
   font-size: 22px;
-  color: hsl(197, 100%, 43%);
+  color: #0092CC;
 }
 .choose i{
   margin-right: 7px;
@@ -2794,13 +2800,6 @@ a.logo{
 }
 .util {
   margin-top: 6px;
-}
-/*.price {
-  float: left;
-}*/
-.rial {
-  float: left;
-  margin-left: 20px;
 }
 .center {
   text-align: center !important;
