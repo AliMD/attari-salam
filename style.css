@@ -2836,3 +2836,16 @@ a.logo{
   color: #fb4449;
   font-size: 2.5em;
 }
+
+.content{
+  width: 49%;
+}
+
+.feature h4,
+.feature p{
+  margin-right: 100px;
+}
+
+.feature > div{
+  float: right;
+}
