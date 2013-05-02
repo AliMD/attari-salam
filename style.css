@@ -182,7 +182,7 @@ ul li {
 .nav-container {
   background:#fff;
   border-width:1px 0;
-  padding:5px 0 6px;
+  padding:5px 0;
 }
 
 .content {
@@ -252,7 +252,7 @@ ul li {
   margin:0 10px 0 0;
 }
 
-.cta>a,.cta>.button {
+.price>a,.price>.button {
   background:linear-gradient(top,#fff0%,#eee100%);
   -moz-border-radius:2px;
   -webkit-border-radius:2px;
@@ -280,7 +280,7 @@ ul li {
   box-shadow:inset 1px 1px 5px rgba(0,0,0,.15);
 }
 
-.cta-play>a {
+.price > a {
   background: #02B1E1;
   background: -moz-linear-gradient(top,#00C0F4 0%,#02B1E1 100%);
   background: -o-linear-gradient(top,#00C0F4 0%,#02B1E1 100%);
@@ -291,9 +291,10 @@ ul li {
   color:#fff;
   text-shadow:1px 1px 0 rgba(0,0,0,.15);
   font-size: 18px;
+  float: left;
 }
 
-.cta-play>a:hover {
+.price>a:hover {
   border-color:#01a3c0;
 }
 
@@ -492,6 +493,7 @@ ul li {
 
 .dev-feat-nav {
   padding:2px 5px 2px 0;
+  margin: 20px 0 30px;
 }
 
 [dir="rtl"] .dev-feat-nav ul {
@@ -530,11 +532,12 @@ ul li {
 }
 
 .hero .price {
-  display:inline-block;
+/*  display:inline-block;
   font-size:30px;
   right:10px;
   position:relative;
-  top:7px;
+  top:7px;*/
+  padding-top: 8px;
 }
 .hero .price span {
   font-size: 28px;
@@ -1306,8 +1309,12 @@ ul li {
   max-width:445px;
 }
 
+.voice{
+  background-color: #f7f7f7;
+}
+
 .nexus-4 .voice .image {
-  margin-top:-75px;
+  margin-top:0px;
 }
 
 .nexus-4 .maps .main {
@@ -2721,7 +2728,7 @@ a.logo{
 }
 
 @media screen and (max-width:500px){
-  .cta-play {
+  .play {
     display:none!important;
   }
 
@@ -2759,6 +2766,9 @@ a.logo{
   font-size: 22px;
   color: hsl(197, 100%, 43%);
 }
+.choose i{
+  margin-right: 7px;
+}
 .howToBuy {
   float: left;
   font-size: 22px;
@@ -2785,16 +2795,12 @@ a.logo{
 .util {
   margin-top: 6px;
 }
-.price {
-
-}
-.cta-play {
+/*.price {
   float: left;
-  margin-top: 8px;
-}
+}*/
 .rial {
-  display: block;
   float: left;
+  margin-left: 20px;
 }
 .center {
   text-align: center !important;
@@ -2817,6 +2823,10 @@ a.logo{
   margin-right: 35px;
 }
 
+.content.warning{
+  margin-top: 45px;
+}
+
 .content.warning p{
   font-size: 22px;
 }
@@ -2824,4 +2834,8 @@ a.logo{
 .content.warning h4{
   color: #fb4449;
   font-size: 2.5em;
+}
+
+.subnav{
+  height: 32px;
 }
