@@ -275,13 +275,19 @@ a.buybtn{
   background: -webkit-gradient(linear,left top,left bottom,color-stop(0,#00C0F4 0%),color-stop(1,#02B1E1 100%));
   background: linear-gradient(top,#00C0F4 0%,#02B1E1 100%);
   color:#fff;
-  text-shadow:1px 1px 0 rgba(0,0,0,.15);
   font-size: 18px;
 }
 
 a.buybtn:hover{
   border-color:#01a3c0;
-  background: -webkit-linear-gradient(top,hsl(203, 100%, 48%) 0%,hsl(203, 98%, 45%) 100%);
+  background: #0097f5; /* Old browsers */
+  background: -moz-linear-gradient(top, #0097f5 0%, #028de4 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#0097f5), color-stop(100%,#028de4)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #0097f5 0%,#028de4 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #0097f5 0%,#028de4 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #0097f5 0%,#028de4 100%); /* IE10+ */
+  background: linear-gradient(to bottom, #0097f5 0%,#028de4 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0097f5', endColorstr='#028de4',GradientType=0 ); /* IE6-9 */;
 }
 
 a.buybtn:active{
@@ -549,8 +555,12 @@ a.buybtn:active{
   vertical-align: bottom;
 }
 
-.buybtn .buybar{
-  margin: 0 6px;
+.buybtn span{
+  /*vertical-align: bottom;*/
+}
+
+.buybtn span.buybar{
+  /*vertical-align: middle;*/
 }
 
 .google-carousel-controls {
