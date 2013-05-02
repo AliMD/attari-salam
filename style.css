@@ -715,7 +715,9 @@ ul li {
 }
 
 .icon {
-  background:url(images/icons-main-sprites.png) 0 0 no-repeat;
+  background:url(images/icons-main-sprites.png);
+  background-position: -64px -255px;
+  background-repeat: no-repeat;
   -webkit-background-size:-100% auto;
   background-size:200% auto;
   display:block;
@@ -2110,9 +2112,9 @@ img,iframe,.features-list li:last-child,.play-list li:last-child {
   background:url(images/common-border-shadow-bottom.png) center bottom no-repeat;
 }
 
-.nexus-4 .camera-features .main,.nexus-4 .speed-features .main {
+/*.nexus-4 .camera-features .main,.nexus-4 .speed-features .main {
   background:url(images/common-border-shadow-top.png) center top no-repeat;
-}
+}*/
 
 .nexus-4 .display .image img,.nexus-7 .google.dev-feat-bkt .image img {
   max-width:520px;
@@ -2843,9 +2845,13 @@ a.logo{
 
 .feature h4,
 .feature p{
-  margin-right: 100px;
+  margin-right: 80px;
 }
 
 .feature > div{
   float: right;
+}
+
+.camera{
+  background-color: #f7f7f7;
 }
