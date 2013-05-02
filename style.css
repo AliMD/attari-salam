@@ -485,6 +485,12 @@ ul li {
   margin:0 7px;
 }
 
+.subnav li i{
+  line-height: 5px;
+  margin-left: 3px;
+  font-size: 14px;
+}
+
 .subnav {
   font-weight:300;
   margin:0 -5px;
@@ -1313,10 +1319,6 @@ ul li {
 .nexus-4 .hero .image img {
   margin:0 -50px 0 0;
   max-width:445px;
-}
-
-.voice{
-  background-color: #f7f7f7;
 }
 
 .nexus-4 .voice .image {
@@ -2833,8 +2835,4 @@ a.logo{
 .content.warning h4{
   color: #fb4449;
   font-size: 2.5em;
-}
-
-.subnav{
-  height: 32px;
 }
