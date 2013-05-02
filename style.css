@@ -252,12 +252,12 @@ ul li {
   margin:0 10px 0 0;
 }
 
-.price>a,.price>.button {
-  background:linear-gradient(top,#fff0%,#eee100%);
+a.buybtn{
+  /*background:linear-gradient(top,#fff0%,#eee100%);*/
   -moz-border-radius:2px;
   -webkit-border-radius:2px;
   border-radius:2px;
-  border:1px solid #cdcece;
+  border:1px solid #19b6d3;
   -moz-box-shadow:1px 1px 3px rgba(0,0,0,.1);
   -webkit-box-shadow:1px 1px 3px rgba(0,0,0,.1);
   box-shadow:1px 1px 3px rgba(0,0,0,.1);
@@ -268,33 +268,26 @@ ul li {
   -o-transition:border-color .2s;
   -webkit-transition:border-color .2s;
   transition:border-color .2s;
-}
-
-.cta>a:hover,.cta>.button:hover {
-  border-color:#bababb;
-}
-
-.cta>a:active,.cta>.button:active {
-  -moz-box-shadow:inset 1px 1px 5px rgba(0,0,0,.15);
-  -webkit-box-shadow:inset 1px 1px 5px rgba(0,0,0,.15);
-  box-shadow:inset 1px 1px 5px rgba(0,0,0,.15);
-}
-
-.price > a {
   background: #02B1E1;
   background: -moz-linear-gradient(top,#00C0F4 0%,#02B1E1 100%);
   background: -o-linear-gradient(top,#00C0F4 0%,#02B1E1 100%);
   background: -webkit-linear-gradient(top,#00C0F4 0%,#02B1E1 100%);
   background: -webkit-gradient(linear,left top,left bottom,color-stop(0,#00C0F4 0%),color-stop(1,#02B1E1 100%));
   background: linear-gradient(top,#00C0F4 0%,#02B1E1 100%);
-  border-color:#19b6d3;
   color:#fff;
   text-shadow:1px 1px 0 rgba(0,0,0,.15);
   font-size: 18px;
 }
 
-.price>a:hover {
+a.buybtn:hover{
   border-color:#01a3c0;
+  background: -webkit-linear-gradient(top,hsl(203, 100%, 48%) 0%,hsl(203, 98%, 45%) 100%);
+}
+
+a.buybtn:active{
+  -moz-box-shadow:inset 1px 1px 5px rgba(0,0,0,.15);
+  -webkit-box-shadow:inset 1px 1px 5px rgba(0,0,0,.15);
+  box-shadow:inset 1px 1px 5px rgba(0,0,0,.15);
 }
 
 .expand-features-toggle a {
@@ -545,7 +538,7 @@ ul li {
   text-align: left;
   padding-top: 8px;
 }
-.hero .price span {
+.hero .price > span {
   font-size: 26px;
   color: #009CDC;
   display: inline-block;
@@ -554,6 +547,10 @@ ul li {
 .hero .price a {
   margin-right: 10px;
   vertical-align: bottom;
+}
+
+.buybtn .buybar{
+  margin: 0 6px;
 }
 
 .google-carousel-controls {
@@ -2854,4 +2851,8 @@ a.logo{
 
 .camera{
   background-color: #f7f7f7;
+}
+
+.doctor h2{
+  color: #ECE270;
 }
