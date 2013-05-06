@@ -13,11 +13,13 @@ body {
   direction:rtl;
   background:#FFF;
   color:#555;
-  font:normal 15px Roboto,arial,sans-serif;
+  font-size:15px;
+  font-weight: normal;
   font-weight:300;
   margin:0;
   overflow-x:hidden;
-  font-family: Nazanin;
+  font-family: Nazanin,arial,sans-serif;
+  line-height: 1.5;
 }
 
 body.no-roboto {
@@ -28,6 +30,7 @@ div,a,li {
   border-color:#efefef;
   border-style:solid;
   border-width:0;
+  line-height: 1.5;
 }
 
 a {
@@ -59,7 +62,7 @@ a.more:before {
 
 p,dl {
   color:#666;
-  line-height:1.8em;
+  line-height:1.5em;
   margin:0 0 10px;
 }
 
@@ -545,10 +548,13 @@ a.buybtn:active{
   padding-top: 8px;
 }
 .hero .price > span {
-  font-size: 26px;
+  font-size: 31px;
   color: #009CDC;
   display: inline-block;
-  vertical-align: bottom;
+  vertical-align: middle;
+}
+.hero .price > span.rial {
+  font-size: 15px;
 }
 .hero .price a {
   margin-right: 10px;
@@ -699,6 +705,7 @@ a.buybtn:active{
 
 .google h2,.google h3 {
   color:#53af4e;
+  margin-top: 0;
 }
 
 .google .anchor {
