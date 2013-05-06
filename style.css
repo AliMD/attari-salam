@@ -197,7 +197,7 @@ ul li {
 .image {
   text-align:center;
   line-height:0;
-  width:49%;
+  width:47%;
 }
 
 .secondary {
@@ -1335,6 +1335,10 @@ a.buybtn:active{
 .nexus-4 .hero .image img {
   margin:0 -50px 0 0;
   max-width:445px;
+}
+
+.voice .main{
+  padding: 30px 0;
 }
 
 .nexus-4 .voice .image {
@@ -2866,10 +2870,16 @@ a.logo{
   float: right;
 }
 
-.camera{
-  background-color: #f7f7f7;
-}
-
 .doctor h2{
   color: #ECE270;
+}
+
+div.footer div.go2top{
+  width: 40px;
+  height: 40px;
+  float: right;
+  cursor: pointer;
+  background-image: url(images/top.png);
+  background-position: center center;
+  background-repeat: no-repeat;
 }
