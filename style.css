@@ -896,6 +896,7 @@ a.buybtn:active{
   font-size:.8em;
   line-height:1.5em;
   margin-bottom:0;
+  font-family: tahoma,arial,sans-serif;
 }
 
 .cinco-ui-hidden {
