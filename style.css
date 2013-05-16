@@ -31,6 +31,7 @@ div,a,li {
   border-style:solid;
   border-width:0;
   line-height: 1.5;
+  text-align: justify;
 }
 
 a {
@@ -894,7 +895,7 @@ a.buybtn:active{
 
 .disclaimer p {
   font-size:.8em;
-  line-height:1.5em;
+  line-height:2.3em;
   margin-bottom:0;
   font-family: tahoma,arial,sans-serif;
 }
@@ -2846,7 +2847,7 @@ a.logo{
 }
 
 .content.warning{
-  margin-top: 45px;
+  margin-top: 15px;
 }
 
 .content.warning p{
@@ -2876,11 +2877,24 @@ a.logo{
 }
 
 div.footer div.go2top{
-  width: 40px;
-  height: 40px;
+  width: 25px;
+  height: 25px;
   float: right;
   cursor: pointer;
-  background-image: url(images/top.png);
-  background-position: center center;
-  background-repeat: no-repeat;
+  font-size: 22px;
+  border: 1px solid hsl(0, 0%, 33%);
+  border-radius: 50%;
+  color: hsl(0, 100%, 100%);
+  background-color: hsl(0, 0%, 33%);
+  text-align: center;
+}
+
+div.footer div.go2top:hover{
+  color: hsl(0, 0%, 33%);
+  background-color: hsl(0, 100%, 100%);
+}
+
+div.title-page{
+  background-color: #f7f7f7;
+  padding: 50px 0 20px 0;
 }
