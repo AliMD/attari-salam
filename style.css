@@ -539,7 +539,7 @@ a.buybtn:active{
   width:50%;
 }
 
-.hero .price {
+.google .price {
 /*  display:inline-block;
   font-size:30px;
   right:10px;
@@ -548,16 +548,16 @@ a.buybtn:active{
   text-align: left;
   padding-top: 8px;
 }
-.hero .price > span {
+.google .price > span {
   font-size: 31px;
   color: #009CDC;
   display: inline-block;
   vertical-align: middle;
 }
-.hero .price > span.rial {
+.google .price > span.rial {
   font-size: 15px;
 }
-.hero .price a {
+.google .price a {
   margin-right: 10px;
   vertical-align: bottom;
 }
@@ -1335,7 +1335,7 @@ a.buybtn:active{
 }
 
 .nexus-4 .hero .image img {
-  margin:0 -50px 0 0;
+  margin:0;
   max-width:445px;
 }
 
@@ -2834,11 +2834,13 @@ a.logo{
 .disclaimer {
   font-family: serif;
 }
-.content ol{
+.content ol,
+.content ul{
   font-size: 19px;
   margin-bottom: 10px;
 }
-.content ol span{
+.content ol span,
+.content ul span{
   font-size: 22px;
   font-weight: bold;
 }
